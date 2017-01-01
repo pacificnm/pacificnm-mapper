@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class Pacificnm\Mapper\AbstractMysqlMapper</title>
+
+	<script type="text/javascript" src="resources/combined.js?117538352"></script>
+	<script type="text/javascript" src="elementlist.js?591994732"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Pacificnm.html">Pacificnm<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Pacificnm.Mapper.html">Mapper</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Pacificnm.Mapper.AbstractMysqlMapper.html">AbstractMysqlMapper</a></li>
+				<li><a href="class-Pacificnm.Mapper.Module.html">Module</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Pacificnm.Mapper.html" title="Summary of Pacificnm\Mapper"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class AbstractMysqlMapper</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Pacificnm.html">Pacificnm</a>\<a href="namespace-Pacificnm.Mapper.html">Mapper</a><br>
+		
+
+		<b>Located at</b> <a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#15-240" title="Go to source code">AbstractMysqlMapper.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#83-104" title="Go to source code">__construct</a>( <span>Zend\Db\Adapter\AdapterInterface <var>$readAdapter</var></span>, <span>Zend\Db\Adapter\AdapterInterface <var>$writeAdapter</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$readAdapter</var></dt>
+					<dd><code>Zend\Db\Adapter\AdapterInterface</code><br>$readAdapter</dd>
+					<dt><var>$writeAdapter</var></dt>
+					<dd><code>Zend\Db\Adapter\AdapterInterface</code><br>$writeAdapter</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPaginator" id="_getPaginator">
+
+		<td class="attributes"><code>
+			 protected 
+			Zend\Paginator\Paginator
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPaginator">#</a>
+		<code><a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#106-123" title="Go to source code">getPaginator</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Zend\Paginator\Paginator</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRows" id="_getRows">
+
+		<td class="attributes"><code>
+			 protected 
+			Zend\Db\ResultSet\ResultSet
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRows">#</a>
+		<code><a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#125-149" title="Go to source code">getRows</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Zend\Db\ResultSet\ResultSet</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRow" id="_getRow">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-ArrayObject.html">ArrayObject</a></code>|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRow">#</a>
+		<code><a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#151-175" title="Go to source code">getRow</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-ArrayObject.html">ArrayObject</a></code>|null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createRow" id="_createRow">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed|null|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createRow">#</a>
+		<code><a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#177-202" title="Go to source code">createRow</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed|null|null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updateRow" id="_updateRow">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updateRow">#</a>
+		<code><a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#204-220" title="Go to source code">updateRow</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteRow" id="_deleteRow">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteRow">#</a>
+		<code><a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#223-238" title="Go to source code">deleteRow</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="readAdapter" id="$readAdapter">
+		<td class="attributes"><code>
+			protected  
+			Zend\Db\Adapter\AdapterInterface
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#17-21" title="Go to source code"><var>$readAdapter</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$readAdapter" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="writeAdapter" id="$writeAdapter">
+		<td class="attributes"><code>
+			protected  
+			Zend\Db\Adapter\AdapterInterface
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#23-27" title="Go to source code"><var>$writeAdapter</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$writeAdapter" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="hydrator" id="$hydrator">
+		<td class="attributes"><code>
+			protected  
+			HydratorInterface
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#29-33" title="Go to source code"><var>$hydrator</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$hydrator" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="prototype" id="$prototype">
+		<td class="attributes"><code>
+			protected  
+			Entity
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#35-39" title="Go to source code"><var>$prototype</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$prototype" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="readSql" id="$readSql">
+		<td class="attributes"><code>
+			protected  
+			Zend\Db\Sql\Sql
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#41-45" title="Go to source code"><var>$readSql</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$readSql" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="writeSql" id="$writeSql">
+		<td class="attributes"><code>
+			protected  
+			Zend\Db\Sql\Sql
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#47-51" title="Go to source code"><var>$writeSql</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$writeSql" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="$delete">
+		<td class="attributes"><code>
+			protected  
+			Zend\Db\Sql\Delete
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#53-57" title="Go to source code"><var>$delete</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$delete" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert" id="$insert">
+		<td class="attributes"><code>
+			protected  
+			Zend\Db\Sql\Insert
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#59-63" title="Go to source code"><var>$insert</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$insert" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="$update">
+		<td class="attributes"><code>
+			protected  
+			Zend\Db\Sql\Update
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#65-69" title="Go to source code"><var>$update</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$update" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="select" id="$select">
+		<td class="attributes"><code>
+			protected  
+			Zend\Db\Sql\Select
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#71-75" title="Go to source code"><var>$select</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$select" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="debug" id="$debug">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Pacificnm.Mapper.AbstractMysqlMapper.html#77-81" title="Go to source code"><var>$debug</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$debug" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
